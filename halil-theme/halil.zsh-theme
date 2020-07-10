@@ -17,6 +17,6 @@ case $USER in
 	;;
 esac
 } 
-PROMPT="%{$fg_bold[green]%} %2~%{$reset_color%} ☪ %{$fg_bold[red]%}%*%{$reset_color%}
+PROMPT="%{$fg_bold[green]%} %2~%{$reset_color%} ☪ %{$fg_bold[yellow]%}%*%{$reset_color%}
 $(prompt_char)%{$reset_color%} "
 RPROMPT='$(git_prompt_info)'
